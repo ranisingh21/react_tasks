@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import  StaticMenuItem from  './StaticMenuItem';
 import DynamicMenuItem from './DynamicMenuItem';
 let  menuItems = [
