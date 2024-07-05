@@ -6,9 +6,9 @@ const TeaDisplay = ({ name, origin, description }) => {
       {/*<h2>Static Data</h2>
       <div>name: Brooke Bond Taaza</div>
       <div>origin: India</div>
-      <div>description: Brooke Bond Taaza is a special tea blend made with tea leaves from select Trustea certified gardens.</div>*/}
+      <div>description: Brooke Bond Taaza is a special tea blend made with tea leaves from select Trustea certified gardens.</div>
       
-     { /* <h2>Dynamic Data</h2>
+      <h2>Dynamic Data</h2>
       <div>name: {name}</div>
       <div>origin: {origin}</div>
       <div>description: {description}</div>*/}

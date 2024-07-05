@@ -1,5 +1,5 @@
-
-import Tea_display from './TeaDisplay';
+import React from 'react';
+import TeaDisplay from './TeaDisplay';
 
 let dynamic_data = {
   name: "Brooke Bond Taaza Tea",
@@ -29,8 +29,7 @@ const Page = () => {
   return (
     <div className="app">
       {Teas.map((tea) => (
-        <Tea_display 
-          key={tea.name} // Adding a unique key prop
+        <TeaDisplay  
           name={tea.name}
           origin={tea.origin}
           description={tea.description}
